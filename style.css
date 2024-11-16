@@ -9,37 +9,37 @@
   position: absolute;
   width: 100%;
   height: 80px;
-  display: flex; /* Flexbox activé */
-  align-items: center; /* Centre verticalement les éléments */
+  display: flex;
+  align-items: center;
   background-color: #2B7A78;
 }
 
 .innerHeader {
   width: 80%;
   height: 100%;
-  display: flex; /* Flexbox activé */
-  align-items: center; /* Centre verticalement */
-  justify-content: space-between; /* Espace entre le logo et la navigation */
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
   margin: 0 auto;
 }
 
 .logo {
   height: 100%;
-  display: flex; /* Flexbox activé */
-  align-items: center; /* Centre verticalement */
+  display: flex;
+  align-items: center; 
 }
 
 .navigation {
-  display: flex; /* Flexbox activé */
-  align-items: center; /* Centre verticalement */
+  display: flex;
+  align-items: center; 
 }
 
 .navigation button {
   background: none;
   border-radius: 8px;
   border: none;
-  height: auto; /* Ajuste automatiquement la hauteur selon le contenu */
-  margin: 0 10px; /* Espacement horizontal entre les boutons */
+  height: auto;
+  margin: 0 10px;
   padding: 4px 8px;
 }
 
@@ -47,7 +47,7 @@
   color: #FEFFFF;
   font-size: 16px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: inline-block; /* Pour garder les éléments sur une ligne */
+  display: inline-block;
 }
 
 button:hover {
@@ -62,7 +62,7 @@ button:hover {
   top: 150px;
   width: 100%;
   text-align: center;
-  align-items: center; /* Centre verticalement les éléments */
+  align-items: center;
 }
 
 .texte {
@@ -71,8 +71,8 @@ button:hover {
   top: 200px;
   height: 100%;
   text-align: justify;
-  align-items: center; /* Centre verticalement */
-  justify-content: space-between; /* Espace entre le logo et la navigation */
+  align-items: center; 
+  justify-content: space-between;
   margin: 0 auto;
 }
   
