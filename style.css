@@ -55,3 +55,24 @@ button:hover {
   color: black;
   font-size: 18px;
 }
+
+
+.title {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+  align-items: center; /* Centre verticalement les éléments */
+}
+
+.texte {
+  position: relative;
+  width: 80%;
+  top: 200px;
+  height: 100%;
+  text-align: justify;
+  align-items: center; /* Centre verticalement */
+  justify-content: space-between; /* Espace entre le logo et la navigation */
+  margin: 0 auto;
+}
+  
